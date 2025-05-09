@@ -1,1 +1,1 @@
-Here are my dotfiles for hyprland, waybar, and fastfetch!
+My configurations for Hyprland as well as other things
