@@ -1,0 +1,9 @@
+format = '''
+[╭$directory](bold red)
+[╰➜](bold red) '''
+
+[directory]
+home_symbol = '📁|∼'
+truncation_length = 8
+truncation_symbol = ''
+style = 'bold blue'
