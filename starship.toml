@@ -1,9 +1,20 @@
 format = '''
-[╭$directory](bold red)
-[╰➜](bold red) '''
+[╭[](bold red)$directory······················································································$time](bold black)
+[╰](bold black)[❯](bold green) '''
 
 [directory]
 home_symbol = '📁|∼'
 truncation_length = 8
 truncation_symbol = ''
 style = 'bold blue'
+
+[time]
+format = 'at [$time] (style) '
+use_12hr = false
+utc_time_offset = 'local'
+style = 'bold cyan'
+
+[git_branch]
+symbol = ''
+truncation_length = 4
+truncation_symbol = ''
